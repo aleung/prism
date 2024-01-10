@@ -29,6 +29,7 @@ const baseAjvOptions: Partial<Options> = {
   allErrors: true,
   allowUnionTypes: true,
   allowMatchingProperties: true,
+  discriminator: true,
   strict: false,
   logger: unknownFormatSilencerLogger,
 };
